@@ -1,0 +1,23 @@
+{
+  "name": "compile-emulate",
+  "version": "1.0.0",
+  "description": "compile相关练习",
+  "main": "hello.js",
+  "scripts": {
+    "start": "node hello.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunhui-blog/compile-emulate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunhui-blog/compile-emulate/issues"
+  },
+  "homepage": "https://github.com/sunhui-blog/compile-emulate#readme",
+  "dependencies": {
+    "typescript": "^4.4.3"
+  }
+}
