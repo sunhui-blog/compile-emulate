@@ -15,7 +15,7 @@ function createTransformer() {
 }
 
 // 要编译源码
-const source = `console.log("hello xuld")`
+const source = `console.log("hello xuld");`
 
 // 编译源码
 const result = ts.transpileModule(source, {
@@ -25,4 +25,4 @@ const result = ts.transpileModule(source, {
 })
 
 // 打印结果
-console.log(result.outputText)
+console.log(result.outputText) // console.log("hello world!");
