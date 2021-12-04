@@ -362,7 +362,7 @@ parseHTML(template, {
       currentParent = element
       stack.push(element)
     } else {
-      // closeElement(element)
+      closeElement(element)
     }
   },
 
@@ -373,7 +373,7 @@ parseHTML(template, {
     if (options.outputSourceRange) {
       element.end = end
     }
-    // closeElement(element)
+    closeElement(element)
   },
 
   chars (text, start, end) {
